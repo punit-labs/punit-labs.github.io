@@ -28,4 +28,4 @@ ffmpeg -y -sseof -0.5 -i assets/<repo>.gif -update 1 -frames:v 1 /tmp/p.png && s
 1. Create the public repo `punit-labs/punit-labs.github.io`.
 2. Push this folder to `main`.
 3. Under Settings → Pages, set the source to "Deploy from a branch", `main` / root.
-4. The site goes live at `https://punit-labs.github.io/`.
+4. The site goes live at `https://punit-labs.github.io/`, which redirects to the custom domain **https://punitvshah.com/** (set by the `CNAME` file; DNS is managed in Cloudflare).
