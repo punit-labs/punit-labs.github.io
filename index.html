@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Punit Shah — Senior Technical Program Manager</title>
+  <meta name="description" content="Senior TPM with ~15 years leading developer productivity, release and infrastructure programs — now building AI-native execution systems for engineering organizations.">
+  <meta property="og:title" content="Punit Shah — Senior Technical Program Manager">
+  <meta property="og:description" content="AI-native engineering systems for better execution, developer productivity, and technical program delivery.">
+  <meta property="og:image" content="assets/tpm-command-center.jpg">
+  <meta property="og:type" content="website">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">Punit Shah</a>
+      <nav aria-label="Sections">
+        <a href="#pipeline">Pipeline</a>
+        <a href="#work">Work</a>
+        <a href="#ai">AI practice</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero wrap" id="top">
+      <p class="eyebrow">Senior Technical Program Manager · AI-native engineering · San Francisco Bay Area</p>
+      <h1>I turn ambiguous goals into execution systems teams can scale <span class="accent">— and, increasingly, into AI systems that run them.</span></h1>
+      <p class="lede">About 15 years leading large technical programs across developer productivity, build and release infrastructure, and incident management at Snowflake and Flow. Today I build open-source Claude Code skills that automate the mechanical parts of program management, so the judgment calls stay with people.</p>
+      <div class="cta">
+        <a class="btn primary" href="#pipeline">See the work</a>
+        <a class="btn" href="https://github.com/punit-labs" rel="noopener">GitHub · punit-labs</a>
+        <a class="btn" href="https://www.linkedin.com/in/punitvshah/" rel="noopener">LinkedIn</a>
+        <!-- TODO: add resume.pdf to this folder, then uncomment -->
+        <!-- <a class="btn" href="resume.pdf">Résumé</a> -->
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="wrap stats" aria-label="Impact at a glance">
+      <div class="stat">
+        <p class="stat-num">7d → 1d</p>
+        <p class="stat-label">Release cycle cut from weekly to daily (Snowflake <em>Ship Faster</em>)</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">10×</p>
+        <p class="stat-label">Developer inner-loop productivity gain (Snowflake <em>Type Faster</em>)</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">7 + 1</p>
+        <p class="stat-label">Open-source AI TPM skills, plus a harness that tests them</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">~15 yrs</p>
+        <p class="stat-label">Leading programs across dev productivity, infra and release</p>
+      </div>
+    </section>
+
+    <!-- PIPELINE -->
+    <section class="wrap section" id="pipeline">
+      <p class="eyebrow">Centerpiece</p>
+      <h2>An AI-native TPM pipeline, end to end</h2>
+      <p class="section-lede">Four connected skills take one PRD all the way to an executive dashboard. Each one passes structured JSON to the next. In every skill, <strong>Claude makes the judgment calls and plain, tested Python does the math</strong>, so every number is reproducible.</p>
+
+      <p class="diagram-hint" aria-hidden="true">Swipe the diagram →</p>
+      <figure class="diagram">
+        <svg viewBox="0 0 960 330" role="img" aria-labelledby="pipe-title pipe-desc">
+          <title id="pipe-title">TPM skill pipeline</title>
+          <desc id="pipe-desc">A PRD flows into prd-to-jira, which produces a backlog for critical-path-mapper. The schedule feeds both exec-status-report and sprint-slippage-predictor, and all four outputs combine in tpm-command-center. skill-verifier tests every stage.</desc>
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0 0 10 5 0 10z" class="arrowhead"/>
+            </marker>
+          </defs>
+
+          <!-- edges -->
+          <g class="edge" marker-end="url(#arrow)">
+            <path d="M84 120 H118"/>
+            <path d="M286 120 H318"/>
+            <path d="M486 106 C510 106 506 62 530 62"/>
+            <path d="M486 134 C510 134 506 178 530 178"/>
+            <path d="M708 62 C738 62 734 106 762 106"/>
+            <path d="M708 178 C738 178 734 134 762 134"/>
+          </g>
+
+          <!-- PRD -->
+          <g class="node ghost">
+            <rect x="16" y="96" width="68" height="48" rx="10"/>
+            <text x="50" y="125" text-anchor="middle">PRD</text>
+          </g>
+
+          <a href="#p-prd-to-jira-skill"><g class="node">
+            <rect x="120" y="92" width="166" height="56" rx="12"/>
+            <text x="203" y="117" text-anchor="middle" class="n-title">prd-to-jira</text>
+            <text x="203" y="135" text-anchor="middle" class="n-sub">backlog + points</text>
+          </g></a>
+
+          <a href="#p-critical-path-mapper"><g class="node">
+            <rect x="320" y="92" width="166" height="56" rx="12"/>
+            <text x="403" y="117" text-anchor="middle" class="n-title">critical-path-mapper</text>
+            <text x="403" y="135" text-anchor="middle" class="n-sub">CPM schedule + slack</text>
+          </g></a>
+
+          <a href="#p-exec-status-report"><g class="node">
+            <rect x="532" y="34" width="176" height="56" rx="12"/>
+            <text x="620" y="59" text-anchor="middle" class="n-title">exec-status-report</text>
+            <text x="620" y="77" text-anchor="middle" class="n-sub">evidence-backed RAG</text>
+          </g></a>
+
+          <a href="#p-sprint-slippage-predictor"><g class="node">
+            <rect x="532" y="150" width="176" height="56" rx="12"/>
+            <text x="620" y="175" text-anchor="middle" class="n-title">slippage-predictor</text>
+            <text x="620" y="193" text-anchor="middle" class="n-sub">Monte Carlo P50/P95</text>
+          </g></a>
+
+          <a href="#p-tpm-command-center"><g class="node hub">
+            <rect x="764" y="88" width="180" height="64" rx="14"/>
+            <text x="854" y="116" text-anchor="middle" class="n-title">tpm-command-center</text>
+            <text x="854" y="135" text-anchor="middle" class="n-sub">one exec dashboard</text>
+          </g></a>
+
+          <!-- verifier band -->
+          <a href="#p-skill-verifier"><g class="verifier">
+            <rect x="120" y="252" width="824" height="52" rx="12"/>
+            <text x="532" y="276" text-anchor="middle" class="n-title">skill-verifier</text>
+            <text x="532" y="294" text-anchor="middle" class="n-sub">checks every skill's invariants, then corrupts known-good output to prove the checks catch it</text>
+          </g></a>
+          <g class="edge dashed">
+            <path d="M203 148 V252"/><path d="M403 148 V252"/><path d="M620 206 V252"/><path d="M854 152 V252"/>
+          </g>
+        </svg>
+      </figure>
+
+      <div class="callout">
+        <p class="callout-title">What the pipeline caught in the worked example</p>
+        <p>One synthetic PRD ("Nimbus Expense") becomes <strong>5 epics, 23 tasks and 78 story points</strong>, with a planned finish of 2026-08-20. The status report rates the program <strong>RED</strong> because the critical path slipped one day, to 08-21. The Monte Carlo forecast reaches the <strong>same 08-21 P50 by a completely different method</strong>. It also finds that the team that caused the slip is now on track, and the real tail risk sits with Backend. That second finding is the kind of insight nobody gets when four reports live in four documents.</p>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="wrap section" id="work">
+      <p class="eyebrow">Selected work</p>
+      <h2>The pipeline, skill by skill</h2>
+      <p class="section-lede">All projects are open source under the MIT license. Every example uses synthetic data and no employer information.</p>
+
+      <div class="projects">
+        <article class="project" id="p-prd-to-jira-skill">
+          <div class="media">
+            <button class="play" type="button" aria-label="Play terminal demo">▶ Play demo</button>
+            <img src="assets/prd-to-jira-skill.jpg" data-gif="assets/prd-to-jira-skill.gif" alt="Terminal recording: prd-to-jira turning a PRD into epics, tasks and story points" width="1200" height="680" loading="lazy">
+          </div>
+          <div class="body">
+            <p class="step">01 · Plan</p>
+            <h3>prd-to-jira</h3>
+            <p>Turns a PRD into a Jira-ready backlog with epics, tasks, cross-team dependencies and Fibonacci estimates. It replaces a couple of hours of manual breakdown per PRD.</p>
+            <ul class="facts">
+              <li>Claude scores tasks against a written rubric. Anything that would score <strong>13</strong> is flagged as a spike, not estimated.</li>
+              <li>Outputs a Jira import CSV, a risk-colored dependency graph and a review doc.</li>
+            </ul>
+            <p class="metric"><span>5 epics · 23 tasks · 78 pts</span> 4 tasks flagged high-risk</p>
+            <p class="links"><a href="https://github.com/punit-labs/prd-to-jira-skill" rel="noopener">Repo →</a></p>
+          </div>
+        </article>
+
+        <article class="project" id="p-critical-path-mapper">
+          <div class="media">
+            <button class="play" type="button" aria-label="Play terminal demo">▶ Play demo</button>
+            <img src="assets/critical-path-mapper.jpg" data-gif="assets/critical-path-mapper.gif" alt="Terminal recording: critical-path-mapper computing slack and a Gantt chart" width="1200" height="680" loading="lazy">
+          </div>
+          <div class="body">
+            <p class="step">02 · Schedule</p>
+            <h3>critical-path-mapper</h3>
+            <p>Turns a backlog into a real schedule using the critical-path method: early and late starts over business days, slack per task, a Mermaid Gantt chart, and a risk register of every dependency that crosses a team boundary.</p>
+            <ul class="facts">
+              <li>Validates the graph first and fails loudly on cycles or missing dependencies.</li>
+              <li>Makes team handoff risk part of the schedule instead of a separate spreadsheet.</li>
+            </ul>
+            <p class="metric"><span>16 cross-team handoffs</span> 2 of them on the critical path</p>
+            <p class="links"><a href="https://github.com/punit-labs/critical-path-mapper" rel="noopener">Repo →</a></p>
+          </div>
+        </article>
+
+        <article class="project" id="p-exec-status-report">
+          <div class="media">
+            <button class="play" type="button" aria-label="Play terminal demo">▶ Play demo</button>
+            <img src="assets/exec-status-report.jpg" data-gif="assets/exec-status-report.gif" alt="Terminal recording: exec-status-report producing a RAG-rated status report" width="1200" height="680" loading="lazy">
+          </div>
+          <div class="body">
+            <p class="step">03 · Report</p>
+            <h3>exec-status-report</h3>
+            <p>Combines the schedule with raw team notes to produce an executive status report. The RAG rating follows an explicit rubric, so real slips aren't softened to amber and harmless delays don't turn the project red.</p>
+            <ul class="facts">
+              <li>The overall rating comes from the worst epic on or near the critical path.</li>
+              <li>Renders markdown, a Slack-length brief and HTML.</li>
+            </ul>
+            <p class="metric"><span>RED</span> critical path slipped 1 business day → 08-21</p>
+            <p class="links"><a href="https://github.com/punit-labs/exec-status-report" rel="noopener">Repo →</a> <a href="https://punit-labs.github.io/exec-status-report/" rel="noopener">Live demo →</a></p>
+          </div>
+        </article>
+
+        <article class="project" id="p-sprint-slippage-predictor">
+          <div class="media">
+            <button class="play" type="button" aria-label="Play terminal demo">▶ Play demo</button>
+            <img src="assets/sprint-slippage-predictor.jpg" data-gif="assets/sprint-slippage-predictor.gif" alt="Terminal recording: Monte Carlo forecast of team finish dates" width="1200" height="680" loading="lazy">
+          </div>
+          <div class="body">
+            <p class="step">04 · Forecast</p>
+            <h3>sprint-slippage-predictor</h3>
+            <p>Checks the plan's assumed team velocity against what each team has actually delivered. It runs <strong>10,000 Monte Carlo trials per team</strong>, resampling real sprint throughput, and returns P50, P85 and P95 finish dates.</p>
+            <ul class="facts">
+              <li>Only teams with work on the critical path can change the overall verdict.</li>
+              <li>Charts are hand-built SVG with no dependencies.</li>
+            </ul>
+            <p class="metric"><span>LIKELY LATE</span> Backend P50 08-21 · P95 08-24</p>
+            <p class="links"><a href="https://github.com/punit-labs/sprint-slippage-predictor" rel="noopener">Repo →</a> <a href="https://punit-labs.github.io/sprint-slippage-predictor/" rel="noopener">Live demo →</a></p>
+          </div>
+        </article>
+
+        <article class="project feature" id="p-tpm-command-center">
+          <div class="media">
+            <button class="play" type="button" aria-label="Play terminal demo">▶ Play demo</button>
+            <img src="assets/tpm-command-center.jpg" data-gif="assets/tpm-command-center.gif" alt="Terminal recording: tpm-command-center merging four skill outputs into one dashboard" width="1200" height="680" loading="lazy">
+          </div>
+          <div class="body">
+            <p class="step">05 · Synthesize</p>
+            <h3>tpm-command-center</h3>
+            <p>Combines all four outputs into one dashboard. It never recalculates upstream numbers. It validates and merges them, and Claude's only job is the executive summary that connects them, because the most useful findings come from comparing reports.</p>
+            <p class="metric"><span>One page</span> backlog, schedule, RAG and forecast together</p>
+            <p class="links"><a href="https://github.com/punit-labs/tpm-command-center" rel="noopener">Repo →</a> <a href="https://punit-labs.github.io/tpm-command-center/" rel="noopener">Live demo →</a></p>
+          </div>
+        </article>
+      </div>
+
+      <h2 class="sub-h">Standalone tools</h2>
+      <div class="cards">
+        <article class="card" id="p-skill-verifier">
+          <p class="step">Reliability</p>
+          <h3>skill-verifier</h3>
+          <p>A test harness that checks all seven skills against their own guarantees, such as slack formulas, percentile order and date order. It then deliberately corrupts known-good output to prove each check actually fails when it should. A check that never fails is reported as a <em>harness gap</em>.</p>
+          <p class="metric"><span>47 checks</span> CI-ready exit codes</p>
+          <p class="links"><a href="https://github.com/punit-labs/skill-verifier" rel="noopener">Repo →</a></p>
+        </article>
+
+        <article class="card" id="p-onboarding-copilot">
+          <p class="step">Developer productivity</p>
+          <h3>onboarding-copilot</h3>
+          <p>Reads a codebase and writes the briefing a senior engineer would give a new hire: an architecture map, a ranked list of files to read first, gotchas with evidence, and scoped first tasks. Tested on three real open-source repos.</p>
+          <p class="metric"><span>25 stale links</span> found in a real cookbook README</p>
+          <p class="links"><a href="https://github.com/punit-labs/onboarding-copilot" rel="noopener">Repo →</a> <a href="https://punit-labs.github.io/onboarding-copilot/" rel="noopener">Live demo →</a></p>
+        </article>
+
+        <article class="card" id="p-postmortem-copilot">
+          <p class="step">Incident management</p>
+          <h3>postmortem-copilot</h3>
+          <p>Turns a Slack thread, logs and alerts into a postmortem with a timeline, root cause, severity and owned action items. Every duration is <strong>recalculated from raw timestamps</strong> instead of trusted from the model.</p>
+          <p class="metric"><span>43 min outage</span> not "about 40", the number people tend to remember</p>
+          <p class="links"><a href="https://github.com/punit-labs/postmortem-copilot" rel="noopener">Repo →</a> <a href="https://punit-labs.github.io/postmortem-copilot/" rel="noopener">Live demo →</a></p>
+        </article>
+
+        <article class="card" id="p-token-ledger">
+          <p class="step">AI cost observability</p>
+          <h3>token-ledger</h3>
+          <p>Answers "where did my Claude Code tokens actually go?" It spreads each request's cost across everything in context, so per-item costs add up exactly to the session total. Runs locally with no network calls.</p>
+          <p class="metric"><span>37%</span> of my spend was tool results</p>
+          <p class="links"><a href="https://github.com/punit-labs/token-ledger" rel="noopener">Repo →</a></p>
+        </article>
+
+        <article class="card" id="p-chatgpt-chat-cleanup">
+          <p class="step">Automation</p>
+          <h3>chatgpt-chat-cleanup</h3>
+          <p>Bulk-archives ChatGPT history by date or keyword from your own logged-in tab. Dry run by default, rate-limited, and re-checks every archive because the API can return <code>200 OK</code> without saving the change.</p>
+          <p class="metric"><span>"200 OK" ≠ done</span> the lesson that led to skill-verifier</p>
+          <p class="links"><a href="https://github.com/punit-labs/chatgpt-chat-cleanup" rel="noopener">Repo →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- AI PRACTICE -->
+    <section class="wrap section" id="ai">
+      <p class="eyebrow">How I work</p>
+      <h2>AI is in my daily workflow, and I measure it</h2>
+      <p class="section-lede">I use Claude Code daily for planning, analysis, writing and building. I treat it like any other production system: with guardrails, verification and a cost ledger. Here are four weeks of my own usage, measured with token-ledger.</p>
+
+      <div class="ledger">
+        <div class="ledger-row"><span class="ledger-num">954</span><span>API requests over 4 weeks (Oct 8 – Nov 3, 2026)</span></div>
+        <div class="ledger-row"><span class="ledger-num">$81.81</span><span>total at API list prices</span></div>
+        <div class="ledger-row"><span class="ledger-num">97%</span><span>cache hit rate, yet cache <em>writes</em> were still 36% of cost</span></div>
+        <div class="ledger-row"><span class="ledger-num">199 : 1</span><span>tokens read for every token written</span></div>
+      </div>
+
+      <div class="principles">
+        <div class="principle">
+          <h3>AI drafts. Humans decide.</h3>
+          <p>Models handle the tedious parts: decomposition, extraction and first drafts. Decisions that carry accountability, such as priority, risk and go/no-go, stay with people, and the output says which is which.</p>
+        </div>
+        <div class="principle">
+          <h3>Judgment from the model, math from code.</h3>
+          <p>Every skill splits the work. Claude classifies and explains, and deterministic, testable code calculates dates, slack, percentiles and durations. A number I can't reproduce doesn't belong in an exec report.</p>
+        </div>
+        <div class="principle">
+          <h3>Structured, reviewable, traceable.</h3>
+          <p>Outputs are JSON with schemas, validated before rendering, with evidence attached to each claim. Automation should reduce toil without hiding important decisions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="wrap section" id="experience">
+      <p class="eyebrow">Experience</p>
+      <h2>Where I've led programs</h2>
+
+      <ol class="timeline">
+        <li>
+          <div class="tl-head">
+            <h3>Flow</h3>
+            <p class="tl-role">Senior Technical Program Manager <!-- TODO: start date --></p>
+          </div>
+          <ul>
+            <li>Release management.</li>
+            <li>Built AI program governance dashboards and CI observability workflows covering build latency, failure patterns and test signals.</li>
+            <li>Shipped Claude-powered automation, including PRD-to-Jira ticket generation.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="tl-head">
+            <h3>Snowflake</h3>
+            <p class="tl-role">Technical Program Manager · Developer Productivity &amp; Release <!-- TODO: confirm exact title + dates --></p>
+          </div>
+          <ul>
+            <li><strong>Ship Faster:</strong> cut the release cycle from <strong>7 days to 1 day</strong> across release validation, release infrastructure, regression detection and parameter management, run through weekly DRI reviews, a ship room and biweekly leadership reviews.</li>
+            <li><strong>Type Faster:</strong> a <strong>10× improvement in developer inner-loop productivity</strong> across CI latency, merge delays, testing, IDE and containerization.</li>
+            <li><strong>Bazel migration:</strong> moved builds from Maven/CMake to Bazel with remote execution (BuildBarn, BuildBuddy, Kubernetes), driven by a champion model, training and adoption metrics.</li>
+            <li><strong>Release Freeze:</strong> let individual customers freeze deployments. <strong>Incident management:</strong> automated PagerDuty-to-Jira postmortem ticket creation.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="tl-head">
+            <h3>Gigster</h3>
+            <p class="tl-role"><!-- TODO: title + dates + 1–2 highlights -->Technical program delivery</p>
+          </div>
+        </li>
+        <li>
+          <div class="tl-head">
+            <h3>H5 / Lighthouse</h3>
+            <p class="tl-role"><!-- TODO: title + dates + 1–2 highlights -->Legal-tech programs</p>
+          </div>
+        </li>
+      </ol>
+      <!-- TODO: Education section -->
+
+      <div class="skills">
+        <p class="skills-title">Toolkit</p>
+        <ul class="tags">
+          <li>Program governance</li><li>Executive communication</li><li>Release management</li><li>CI/CD &amp; build systems (Bazel)</li><li>Incident management</li><li>Change management</li><li>Metrics-driven execution</li><li>Claude Code &amp; Claude API</li><li>Agent orchestration</li><li>Evals &amp; verification</li><li>RAG &amp; grounding</li><li>Python</li><li>SQL</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="wrap section contact" id="contact">
+      <h2>Let's talk.</h2>
+      <p class="section-lede">I'm looking for senior TPM roles where AI changes how engineering gets delivered, and where better execution systems are the leverage.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/punit-labs" rel="noopener">GitHub · punit-labs</a>
+        <a class="btn" href="https://www.linkedin.com/in/punitvshah/" rel="noopener">LinkedIn</a>
+        <a class="btn" href="tel:+14152023560">+1 415-202-3560</a>
+        <!-- TODO: add email, then uncomment -->
+        <!-- <a class="btn" href="mailto:TODO">Email</a> -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© 2026 Punit Shah · San Francisco Bay Area · Built as a plain static site with no frameworks or build step, made with Claude Code.</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
