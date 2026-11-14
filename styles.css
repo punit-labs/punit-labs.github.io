@@ -192,7 +192,12 @@ h3 { font-size: 1.12rem; font-weight: 650; }
 .timeline ul li { margin: 8px 0; }
 .timeline strong { color: var(--text); }
 
-.skills { margin-top: 48px; }
+.tl-aka { font-family: var(--sans); font-size: .9rem; font-weight: 400; color: var(--muted); }
+.edu { margin-top: 48px; }
+.edu ul { margin: 0; padding-left: 18px; color: var(--muted); columns: 2 280px; column-gap: 32px; }
+.edu li { margin: 0 0 8px; break-inside: avoid; }
+.edu strong { color: var(--text); }
+.skills { margin-top: 40px; }
 .skills-title { font: 500 .78rem/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 14px; }
 .tags { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .tags li { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font-size: .88rem; }
